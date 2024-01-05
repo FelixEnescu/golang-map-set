@@ -23,10 +23,15 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+// Package set implements a simple generic, not threadsafe set data structure.
+// It provides constructors form slices and maps, and methods for typical set
+// operations.
 package set
 
+// Set is a generic, not threadsafe set data structure.
 type Set[T comparable] map[T]struct{}
 
+// New creates a new Set.
 func New[T comparable]() Set[T] {
 	return make(map[T]struct{})
 }
@@ -91,7 +96,8 @@ func (set Set[T]) IsSubsetOf(other Set[T]) bool {
 	return true
 }
 
-// IsProperSubsetOf returns true if a Set is a proper subset of another Set.
+// IsProperSubsetOf returns true if a Set is a proper subset of another Set
+// (they cannot be equal).
 func (set Set[T]) IsProperSubsetOf(other Set[T]) bool {
 	return len(set) < len(other) && set.IsSubsetOf(other)
 }
