@@ -19,7 +19,7 @@ go get github.com/felixenescu/golang-map-set
 Import it with:
 
 ```go
-import set "githug.com/felixenescu/golang-map-set"
+import set "github.com/felixenescu/golang-map-set"
 ```
 
 and use `set` as the package name inside the code.
