@@ -1,4 +1,5 @@
-![CI Workflow](https://github.com/felixenescu/golang-map-set/actions/workflows/ci.yml/badge.svg)
+[![Build Status](https://github.com/felixenescu/golang-map-set/actions/workflows/ci.yml/badge.svg)](https://github.com/felixenescu/golang-map-set/actions/workflows/ci.yml/badge.svg)
+[![Code Coverage](https://codecov.io/gh/FelixEnescu/golang-map-set/graph/badge.svg?token=5W6U257JQF)](https://codecov.io/gh/FelixEnescu/golang-map-set)
 [![Go Report Card](https://goreportcard.com/badge/github.com/felixenescu/golang-map-set)](https://goreportcard.com/report/github.com/felixenescu/golang-map-set)
 [![GoDoc](https://godoc.org/github.com/felixenescu/golang-map-set?status.svg)](http://godoc.org/github.com/felixenescu/golang-map-set)
 
